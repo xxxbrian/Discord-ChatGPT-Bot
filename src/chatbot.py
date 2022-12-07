@@ -82,7 +82,8 @@ class ChatBot():
                 reference=message)
             return
         try:
-            response = self.threads[message.channel.id].ask(message.content)
+            response = self.threads[message.channel.id].ask(
+                message.content.strip(atmessage))
             responses = self._split_message(response)
         except Exception as e:
             print(e)
