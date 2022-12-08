@@ -1,4 +1,6 @@
-Discord ChatGPT Bot
+# Discord ChatGPT Bot
+
+[![Base Docker Image CI](https://github.com/xxxbrian/Discord-ChatGPT-Bot/actions/workflows/base-image.yml/badge.svg)](https://github.com/xxxbrian/Discord-ChatGPT-Bot/actions/workflows/base-image.yml) [![Docker Image CI](https://github.com/xxxbrian/Discord-ChatGPT-Bot/actions/workflows/docker-image.yml/badge.svg)](https://github.com/xxxbrian/Discord-ChatGPT-Bot/actions/workflows/docker-image.yml)
 
 A **Discord bot** based on **ChatGPT** with support for opening multiple different conversation sessions in channels and DM, each Channel and DM having a separate contextual conversation.
 

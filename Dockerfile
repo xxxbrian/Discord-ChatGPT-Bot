@@ -1,9 +1,9 @@
-FROM python
+FROM xxxbrian/discord_chatgpt_bot:base-image
+# FROM python
 
 COPY . /root
 WORKDIR /root
 
-RUN pip install discord.py
-RUN pip install chatgptpy --upgrade
+RUN pip install -r requirements.txt
 
 CMD ["python", "run.py"]
