@@ -6,4 +6,4 @@ WORKDIR /root
 
 RUN pip install -r requirements.txt
 
-CMD ["python", "run.py"]
+CMD ["python", "src/dcbot.py"]
