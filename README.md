@@ -8,21 +8,11 @@ A **Discord bot** based on **ChatGPT** with support for opening multiple differe
 
 #### Usage:
 
-**In channel:**
+**Slash Commands:**
 
-`@bot !start` Start a conversation
-
-`@bot [message]`Ask a question
-
-`@bot !end`Ending the conversation
-
-**In DM:**
-
-`!start` Start a conversation
-
-`[message]`Ask a question
-
-`!end`Ending the conversation
+- `/start`: Start a new conversation thread, each thread is a separate conversation.
+- `/chat` `[message]`: Chat the bot with `[message]`, remembers what user said earlier in the conversation.
+- `/end`: End the conversation thread, the bot will forget what user said earlier in the conversation.
 
 
 
@@ -40,7 +30,7 @@ export OPENAI_EMAIL="YOUR_EMAIL"
 export OPENAI_PASSWORD="YOUR_PASSWORD"
 
 # Run
-python run.py
+python src/dcbot.py
 ```
 
 **With docker:**
@@ -65,7 +55,7 @@ xxxbrian/discord_chatgpt_bot:latest
 
 #### TODO:
 
-- [ ] Slash command
+- [x] Slash command
 - [ ] Support retry
 - [ ] Display mode
 
