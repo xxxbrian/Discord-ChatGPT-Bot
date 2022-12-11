@@ -1,0 +1,11 @@
+#vscode
+.vscode/
+
+#pyvenv
+venv/
+
+#pycache
+__pycache__
+
+#test
+test/
