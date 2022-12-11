@@ -6,9 +6,9 @@ on:
     branches:
       - "main"
     paths:
-      - "./base-image/Dockerfile"
+      - "base-image/Dockerfile"
       - ".github/workflows/base-image.yml"
-      - "./requirements.txt"
+      - "requirements.txt"
 
 jobs:
   docker:
