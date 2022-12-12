@@ -36,7 +36,7 @@ python src/dcbot.py
 **With docker:**
 
 ```bash
-docker run -d --name=Discoed-ChatGPT-Bot --restart=unless-stopped \
+docker run -d --name=Discord-ChatGPT-Bot --restart=unless-stopped \
 -e DISCORD_TOKEN="YOUR_TOKEN" \
 -e OPENAI_EMAIL="YOUR_EMAIL" \
 -e OPENAI_PASSWORD="YOUR_PASSWORD" \
